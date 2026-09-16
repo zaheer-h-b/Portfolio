@@ -37,8 +37,6 @@ const Hero = () => {
             />
           </div>
 
-          name
-
           <div className="text-center md:text-left max-w-xl">
             <h2 className="text-lg text-blue-400 tracking-wide uppercase mb-2">
               Hello, I'm
@@ -50,7 +48,7 @@ const Hero = () => {
             <p className="text-xl md:text-2xl font-semibold mb-4 text-blue-300 flex items-center gap-2">
               And I'm a{" "}
               <TypeAnimation
-                sequence={["Web Developer", 2000, "Data Analyst", 2000]}
+                sequence={["Full-Stack Developer", 2000]}
                 speed={50}
                 repeat={Infinity}
                 wrapper="span"
@@ -59,7 +57,7 @@ const Hero = () => {
             </p>
 
             <p className="text-gray-400 mb-6 text-sm md:text-base">
-              I love building fast, clean, and modern web apps with the MERN stack.
+              I build modern, scalable web applications and AI-powered solutions using the MERN stack and modern AI technologies.
             </p>
 
             <div className="flex justify-center md:justify-start gap-4 mb-4">

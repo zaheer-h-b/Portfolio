@@ -7,13 +7,15 @@ const projects = [
     title: "DOC-AI",
     description:
       "An AI-powered document intelligence system that allows users to upload documents and query them through natural-language conversations using RAG, Qdrant, and Google Gemini API.",
-    codeLink: "https://github.com/zaheer-h-b/Doc-AI",
+    githubLink: "https://github.com/zaheer-h-b/Doc-AI",
+    liveDemoLink: "https://doc-ai-six-swart.vercel.app/",
   },
   {
     title: "Employee Attendance System",
     description:
       "A full-stack MERN application with role-based Admin and Employee portals for attendance tracking, leave applications, approval workflows, email OTP verification, and secure authentication.",
-    codeLink: "https://github.com/zaheer-h-b/attendance-system",
+    githubLink: "https://github.com/zaheer-h-b/attendance-system",
+    liveDemoLink: "https://attendance-system-theta-woad.vercel.app/",
   },
 ];
 
@@ -46,14 +48,24 @@ const Projects = () => {
                 {project.description}
               </p>
 
-              <a
-                href={project.codeLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border border-blue-400 text-blue-400 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300"
-              >
-                View Code
-              </a>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block border border-blue-400 text-blue-400 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300"
+                >
+                  GitHub
+                </a>
+                <a
+                  href={project.liveDemoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block border border-blue-400 text-blue-400 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300"
+                >
+                  Live Demo
+                </a>
+              </div>
             </div>
           ))}
         </div>
