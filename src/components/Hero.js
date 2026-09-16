@@ -78,7 +78,7 @@ const Hero = () => {
 
             <div className="flex justify-center md:justify-start mb-6">
               <a
-                href="/Zaheer's Resume.pdf"
+                href="/Zaheer_Resume_3.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
