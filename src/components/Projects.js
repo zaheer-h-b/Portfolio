@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Hostexit",
+    title: "DOC-AI",
     description:
-      "A MERN stack application where admins manage student leave requests. Role-based login, leave tracking, and approval system included.",
-    codeLink: "https://github.com/zaheer-h-b/leave-management",
+      "An AI-powered document intelligence system that allows users to upload documents and query them through natural-language conversations using RAG, Qdrant, and Google Gemini API.",
+    codeLink: "https://github.com/zaheer-h-b/Doc-AI",
   },
   {
-    title: "Admission Prediction System",
+    title: "Employee Attendance System",
     description:
-      "A machine learning model that predicts a student's chances of university admission using GRE, TOEFL, CGPA, and research background.",
-    codeLink: "https://github.com/zaheer-h-b/admission-predictor",
+      "A full-stack MERN application with role-based Admin and Employee portals for attendance tracking, leave applications, approval workflows, email OTP verification, and secure authentication.",
+    codeLink: "https://github.com/zaheer-h-b/attendance-system",
   },
 ];
 
@@ -41,7 +41,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold text-blue-300 mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-300 mb-4">{project.description}</p>
+
+              <p className="text-gray-300 mb-4">
+                {project.description}
+              </p>
+
               <a
                 href={project.codeLink}
                 target="_blank"

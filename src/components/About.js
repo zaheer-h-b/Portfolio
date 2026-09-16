@@ -20,7 +20,7 @@ const About = () => {
           <p className="mb-6">
             I'm <span className="text-blue-300 font-bold">Zaheer Bannigol</span>, a passionate
             <span className="text-blue-400 font-bold"> Full-Stack Web Developer</span> and
-            <span className="text-purple-400 font-bold"> Data Analyst</span>.
+            <span className="text-purple-400 font-bold"> Data Analyst </span>.
           </p>
           <p className="mb-6">
             I specialize in building responsive, scalable web applications using the

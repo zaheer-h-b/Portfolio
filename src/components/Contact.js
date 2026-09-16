@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Navbar from "./Navbar"; // ✅ Import Navbar
+import Navbar from "./Navbar";
 
 const Contact = () => {
   const [copiedField, setCopiedField] = useState("");
@@ -16,7 +16,7 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar /> {/* ✅ Add Navbar at the top */}
+      <Navbar /> 
 
       <motion.section
         initial={{ opacity: 0, y: 50 }}
@@ -26,7 +26,7 @@ const Contact = () => {
         className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-950 text-white px-6 py-24 flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-5xl font-bold text-blue-400 mb-8 text-center">
-          📞 Contact Me
+           Contact Me
         </h1>
 
         <div

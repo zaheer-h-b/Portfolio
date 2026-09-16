@@ -29,7 +29,6 @@ const Hero = () => {
         className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-950 text-white px-6 py-24 flex flex-col justify-center items-center"
       >
         <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-12">
-          {/* Profile Image */}
           <div className="relative rounded-full shadow-lg">
             <img
               src={profileImg}
@@ -38,7 +37,8 @@ const Hero = () => {
             />
           </div>
 
-          {/* Text Content */}
+          name
+
           <div className="text-center md:text-left max-w-xl">
             <h2 className="text-lg text-blue-400 tracking-wide uppercase mb-2">
               Hello, I'm
@@ -47,7 +47,6 @@ const Hero = () => {
               Zaheer Bannigol
             </h1>
 
-            {/* Typing animation */}
             <p className="text-xl md:text-2xl font-semibold mb-4 text-blue-300 flex items-center gap-2">
               And I'm a{" "}
               <TypeAnimation
@@ -63,7 +62,6 @@ const Hero = () => {
               I love building fast, clean, and modern web apps with the MERN stack.
             </p>
 
-            {/* Social Icons */}
             <div className="flex justify-center md:justify-start gap-4 mb-4">
               {socialLinks.map((icon, i) => (
                 <a
@@ -78,7 +76,6 @@ const Hero = () => {
               ))}
             </div>
 
-            {/* Resume Button */}
             <div className="flex justify-center md:justify-start mb-6">
               <a
                 href="/Zaheer's Resume.pdf"
